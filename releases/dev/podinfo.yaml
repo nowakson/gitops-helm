@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: gcr.io/gentle-operator-224709/podinfo:dev-hdtwcel9
+    image: nowakson/podinfo:dev-hdtwcel9
     replicaCount: 1
     hpa:
       enabled: false
