@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: nowakson/podinfo:dev-hdtwcel9
+    image: nowakson/podinfo:dev-plja0i19
     replicaCount: 1
     hpa:
       enabled: false
